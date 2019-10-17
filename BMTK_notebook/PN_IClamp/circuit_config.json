@@ -1,0 +1,25 @@
+{
+  "manifest": {
+    "$BASE_DIR": "${configdir}",
+    "$NETWORK_DIR": "/home/mizzou/Desktop/BMTK_notebook-master/1/BMTK_notebook/BMTK_notebook/network",
+    "$COMPONENTS_DIR": "/home/mizzou/Desktop/BMTK_notebook-master/1/BMTK_notebook/BMTK_notebook/components"
+  },
+  "components": {
+    "biophysical_neuron_models_dir": "$COMPONENTS_DIR/biophysical_neuron_models",
+    "__pycache___dir": "$COMPONENTS_DIR/__pycache__",
+    "point_neuron_models_dir": "$COMPONENTS_DIR/point_neuron_models",
+    "templates_dir": "$COMPONENTS_DIR/templates",
+    "synaptic_models_dir": "$COMPONENTS_DIR/synaptic_models",
+    "morphologies_dir": "$COMPONENTS_DIR/morphologies",
+    "mechanisms_dir": "$COMPONENTS_DIR/mechanisms"
+  },
+  "networks": {
+    "nodes": [
+      {
+        "nodes_file": "$NETWORK_DIR/BL_nodes.h5",
+        "node_types_file": "$NETWORK_DIR/BL_node_types.csv"
+      }
+    ],
+    "edges": []
+  }
+}

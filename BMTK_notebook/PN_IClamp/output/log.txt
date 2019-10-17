@@ -1,0 +1,3 @@
+2019-10-17 17:27:26,573 [INFO] Created log file
+2019-10-17 17:27:26,733 [INFO] Building cells.
+2019-10-17 17:27:27,533 [INFO] Building recurrent connections

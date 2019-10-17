@@ -1,0 +1,2 @@
+node_type_id potental model_template model_type morphology cell_name model_processing dynamics_params
+100 exc ctdb:Biophys1.hoc biophysical reconstruction.swc BL aibs_allactive BL_fit.json
